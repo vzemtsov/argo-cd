@@ -6549,6 +6549,10 @@
       "type": "object",
       "title": "SyncPolicy controls when a sync will be performed in response to updates in git",
       "properties": {
+        "RemoteControl": {
+          "type": "boolean",
+          "title": "RemoteControl indicates control is local or remote"
+        },
         "automated": {
           "$ref": "#/definitions/v1alpha1SyncPolicyAutomated"
         },

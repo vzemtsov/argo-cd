@@ -288,6 +288,8 @@ spec:
                                         selfHeal:
                                           type: boolean
                                       type: object
+                                    remoteControl:
+                                      type: boolean
                                     retry:
                                       properties:
                                         backoff:
@@ -575,6 +577,8 @@ spec:
                                         selfHeal:
                                           type: boolean
                                       type: object
+                                    remoteControl:
+                                      type: boolean
                                     retry:
                                       properties:
                                         backoff:
@@ -864,6 +868,8 @@ spec:
                                         selfHeal:
                                           type: boolean
                                       type: object
+                                    remoteControl:
+                                      type: boolean
                                     retry:
                                       properties:
                                         backoff:
@@ -1129,6 +1135,8 @@ spec:
                                         selfHeal:
                                           type: boolean
                                       type: object
+                                    remoteControl:
+                                      type: boolean
                                     retry:
                                       properties:
                                         backoff:
@@ -1424,6 +1432,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -1711,6 +1721,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -2000,6 +2012,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -2265,6 +2279,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -2646,6 +2662,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -3074,6 +3092,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -3332,6 +3352,8 @@ spec:
                                         selfHeal:
                                           type: boolean
                                       type: object
+                                    remoteControl:
+                                      type: boolean
                                     retry:
                                       properties:
                                         backoff:
@@ -3627,6 +3649,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -3914,6 +3938,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -4203,6 +4229,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -4468,6 +4496,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -4849,6 +4879,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -5277,6 +5309,8 @@ spec:
                                                   selfHeal:
                                                     type: boolean
                                                 type: object
+                                              remoteControl:
+                                                type: boolean
                                               retry:
                                                 properties:
                                                   backoff:
@@ -5539,6 +5573,8 @@ spec:
                                         selfHeal:
                                           type: boolean
                                       type: object
+                                    remoteControl:
+                                      type: boolean
                                     retry:
                                       properties:
                                         backoff:
@@ -5917,6 +5953,8 @@ spec:
                                         selfHeal:
                                           type: boolean
                                       type: object
+                                    remoteControl:
+                                      type: boolean
                                     retry:
                                       properties:
                                         backoff:
@@ -6345,6 +6383,8 @@ spec:
                                         selfHeal:
                                           type: boolean
                                       type: object
+                                    remoteControl:
+                                      type: boolean
                                     retry:
                                       properties:
                                         backoff:
@@ -6608,6 +6648,8 @@ spec:
                               selfHeal:
                                 type: boolean
                             type: object
+                          remoteControl:
+                            type: boolean
                           retry:
                             properties:
                               backoff:

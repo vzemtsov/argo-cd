@@ -4310,6 +4310,13 @@ func schema_pkg_apis_application_v1alpha1_SyncPolicy(ref common.ReferenceCallbac
 							Ref:         ref("github.com/argoproj/argo-cd/v2/pkg/apis/application/v1alpha1.RetryStrategy"),
 						},
 					},
+					"remoteControl": {
+						SchemaProps: spec.SchemaProps{
+							Description: "RemoteControl indicates control is local or remote",
+							Type:        []string{"boolean"},
+							Format:      "",
+						},
+					},
 				},
 			},
 		},

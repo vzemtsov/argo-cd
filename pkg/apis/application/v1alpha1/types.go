@@ -697,6 +697,8 @@ type SyncPolicy struct {
 	SyncOptions SyncOptions `json:"syncOptions,omitempty" protobuf:"bytes,2,opt,name=syncOptions"`
 	// Retry controls failed sync retry behavior
 	Retry *RetryStrategy `json:"retry,omitempty" protobuf:"bytes,3,opt,name=retry"`
+	// RemoteControl indicates control is local or remote
+	RemoteControl bool `json:"remoteControl,omitempty" protobuf:"bytes,4,opt,name=RemoteControl"`
 }
 
 // IsZero returns true if the sync policy is empty

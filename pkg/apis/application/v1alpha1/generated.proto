@@ -1260,6 +1260,9 @@ message SyncPolicy {
 
   // Retry controls failed sync retry behavior
   optional RetryStrategy retry = 3;
+
+  // RemoteControl indicates control is local or remote
+  optional bool RemoteControl = 4;
 }
 
 // SyncPolicyAutomated controls the behavior of an automated sync
